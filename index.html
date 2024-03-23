@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+            <p class="add-fir">Deliver to</p>
+            <div class="nav-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-sec">Pakiatan</p>
+            </div>
+            </div>
+
+
+            <div class="nav-search">
+                <select class="sec">
+                    <option selected>All</option>
+                    <option>All departments</option>
+                    <option>Art and crafts</option>
+                    <option>Automotive</option>
+                    <option>beauty</option>
+                    <option>Fashion</option>
+                    <option>Electronices</option>
+                    <option>Assecories</option>
+                </select>
+                <input class="sec-in" type="placholder" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+
+            <div id="popup" class="border">
+                <div id="default" onmouseenter="pp1()">
+                    <i class="fa-solid fa-language"></i>
+                    <p>EN</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+
+                <div id="popup-content", onmouseleave="pp2()">
+                    <h5 id="lan">Choose your Language</h5>
+                    <label for="pk"><input type="radio" name="op" id="pk">Urdu</label>
+                    <label for="in"><input type="radio" name="op" id="in">Hindi</label>
+                    <label for="en"><input type="radio" name="op" id="en">English</label>
+                    <label for="sp"><input type="radio" name="op" id="sp">Spanish</label>
+                    <label for="dn"><input type="radio" name="op" id="dn">Danish</label>
+                    <label for="ar"><input type="radio" name="op" id="ar">Arabic</label>
+                    <label for="es"><input type="radio" name="op" id="es">Espanol</label>
+                </div>
+
+            </div>
+
+
+
+            <div id="signin" class="border" onmouseenter="ff1()">
+                <p id="p1">Hello, Sign In</p>
+               <di id="s3"> <p id="p2">Accounts and Lists  </p><i class="fa-solid fa-caret-down"></i></di>
+
+            </div>
+
+            <div id="popup2" onmouseleave="ff2()">
+                <div id="div1">
+                    <div id="sdiv"><button id="bt1">Sign In</button></div>
+                    <div id="linkdiv"><p id="newc">New Customer?</p><a id="alink" href="https//:amazon.com">Start Here</a></div>
+                </div>
+                <div id="div2">
+                    <div id="list">
+                        <p id="hh">Lists</p>
+                        <a id="create" href="#">Create a list</a>
+                        <a id="create" href="#">Find a List Or Registry</a>
+                    </div>
+                    <div id="account">
+                        <p id="hh">Your Account</p>
+                        <a id="create" href="#">Accounts</a>
+                        <a id="create" href="#">Order</a>
+                        <a id="create" href="#">Recommendation</a>
+                        <a id="create" href="#">Browse history</a>
+                        <a id="create" href="#">Watch list</a>
+                        <a id="create" href="#">Video Purchase & Rental</a>
+                        <a id="create" href="#">Kindle Unlimited</a>
+                        <a id="create" href="#">Devices</a>
+                        <a id="create" href="#">Subscribe</a>
+                        <a id="create" href="#">Membership</a>
+                        <a id="create" href="#">Music Library</a>
+                       
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="signin1" class="border">
+                <p id="p1">Returns</p>
+               <di id="s3"> <p id="p2">& Orders</p></di>
+
+            </div>
+            
+            <div class="border" id="cart">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <p><b>Cart</b></p>
+            </div>
+
+                  
+        </div>
+        <div id="panel"">
+            <div id="menu" class="border">
+                <i  id ="gh" class="fa-solid fa-bars"></i>
+                <p id="all">All</p>
+            </div>
+
+
+            <div id="op" class="border"> 
+                <a id="all1" href="#">Tadays Deal</a>
+            </div>
+            <div id="op" class="border"> 
+                <a id="all1" href="#">Registry</a>
+            </div>
+            <div id="op" class="border"> 
+                <a id="all1" href="#">Customer Support</a>
+            </div>
+            <div id="op" class="border"> 
+                <a id="all1" href="#">Gift Cards</a>
+            </div>
+            <div id="op" class="border"> 
+                <a id="all1" href="#">Sells</a>
+            </div>
+
+           
+        </div>
+    </header>
+    <div class="hero-section">
+
+    </div>
+   
+    
+
+    
+</body>
+<script src="fun.js"></script>
+</html>
